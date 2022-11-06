@@ -1,6 +1,6 @@
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
-import Navbar from './components/navbar/NavBar';
+import NavBar from './components/navbar/NavBar';
 import LeftBar from './components/leftbar/LeftBar';
 import RightBar from './components/rightbar/RightBar';
 import Home from './pages/Home/Home';
@@ -19,12 +19,12 @@ function App( ){
     const Layout =() => {
       return(
         <div>
-          <Navbar />
-        <div style={{display: "flex"}}>
-          <LeftBar />
-          <Outlet />
-          <RightBar />
-        </div>
+          <NavBar />
+          <div style={{display: "flex"}}>
+            <LeftBar />
+            <Outlet />
+            <RightBar />
+          </div>
        </div>
     );
 
@@ -35,6 +35,7 @@ function App( ){
       return <Navigate to="/Login"/>;
   
    }
+   return children;
   };
 
  const router = createBrowserRouter([

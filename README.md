@@ -75,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 // install yarn
 yarn start
 yarn add react-router-dom
+yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react.// to get icon symbols in our project
