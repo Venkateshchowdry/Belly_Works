@@ -35,7 +35,7 @@ const NavBar = () => {
         <EmailOutlinedIcon/>
         <NotificationsOutlinedIcon/>
         <div className="user">
-          {/* <img src="" alt=" " /> */}
+          <img src=""/>
           <span>venkat</span>
           {/* <Link to="/profile" style={{textDecoration:"none"}}></Link> */}
         </div>
