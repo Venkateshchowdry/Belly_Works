@@ -9,13 +9,16 @@ const Login = () =>{
     <div className="login">
      <div className="body">
       <div className="left">
-        <h1>Hello World. .</h1>
+        <h1>Hello Birds..</h1>
         <p>
-        INDIA is my country. <span style={{color:'red'}}>rest of world are my bitches</span>
+        Welcome to the world of oppurtunities...
         </p>
-        <span>Don't have an account</span>
+        <p>
+        Our objective is to develop a bridge that aims to help people discover new oppurtunities near by that suit their time and skills.
+        </p>
+        <span>Don't have an account! create one now.</span>
         <Link to="/register">
-        <button><b>Register</b></button>
+        <button><b>Sign Up</b></button>
         </Link>
       </div>
       <div className="right">
@@ -23,10 +26,12 @@ const Login = () =>{
       <form>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Possword" />
-        <div className="login_buttons">
-          <button>LOGIN</button> 
-          <button>Forgot Password</button>
-        </div>
+        <span>
+          <button type="submit">Login</button>
+          </span>
+          <span>
+          <button type="forgot">Forgot Password</button>
+        </span>
       </form>
       </div>
     </div>

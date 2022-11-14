@@ -9,23 +9,24 @@ const Register = () =>{
     <div className="register">
      <div className="body">
       <div className="left">
-        <h1>Belly Works</h1>
+        <h2>Hungry Bird ?</h2>
         <p>
-        <h2>Great Work<span style={{color:'Green',fontSize:30}}>Happy Belly</span></h2>
+        <h1>Login to have your nest.</h1>
         </p>
-        <h2><span>Already have an account, Please</span></h2>
+        <span>Already a Bird ?, Please login to your nest.</span>
         <Link to="/login">
         <button><b>login</b></button>
         </Link>
         
       </div>
       <div className="right">
-      <h1>Register</h1>
+      <h1>Sign Up</h1>
       <form>
-        <input type="text" placeholder="Username" />
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
         <input type="email" placeholder="email" />
         <input type="password" placeholder="Possword" />
-        <input type="text" placeholder="name" />
+        {/* <input type="text" placeholder="name" /> */}
                 
         <div className="login_buttons">
           <button>Register</button> 
